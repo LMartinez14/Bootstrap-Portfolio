@@ -1,0 +1,155 @@
+    {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#master {
+    z-index: 99999;
+    width: 100%;
+    overflow: auto;
+    color:black;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+}
+
+#my-name{
+    float: left;
+    width: 350px;
+    height: 65px;
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 30px;
+    line-height: 65px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background: rgb(70, 161, 240);
+}
+
+.nav-links{
+    display: inline-block;
+    float: right;
+    margin-top: 50px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+.portfolio-work {
+    position: relative;
+    width: auto;
+    height: auto;
+    float: left;
+    overflow: auto;
+    margin-right: 14px;
+    margin-bottom: 14px;
+}
+
+h4{
+    position: absolute;
+    background: #4aaaa5;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
+    font-weight: 350;
+    line-height: 35px;
+    color: #fff;
+    text-align: center;
+    border-bottom: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+#profile-image {
+    float: left;
+    margin: 14px;
+}
+
+.about-me-section {
+    overflow: auto;
+}
+
+#body-container{
+    background-color: aliceblue;
+    width: 960px;
+    border: 3px solid rgb(70, 161, 240);
+    margin: auto;
+}
+
+#portfolio {
+    background-color: azure;
+    width: 960px;
+    clear: both;
+    font-size: 20px;
+    margin: auto;
+    border: 3px outset rgb(70, 161, 240);
+    padding: 20px;
+    margin-bottom: 69px;
+}
+
+#contact-form{
+    background-color: aliceblue;
+    border: 3px solid rgb(71, 90, 169);
+    margin-bottom: 14px;
+}
+
+label{
+margin-top: 10px;
+}
+
+#name {
+    margin-right: 10px;
+    padding: 6px;
+}
+
+#email {
+    margin-right: 10px;
+    padding: 6px;
+}
+
+#messages {
+    padding: 6px;
+}
+
+input[type=text]{
+    width: 200%;
+}
+
+input[type=email]{
+    width: 200%;
+}
+
+textarea {
+    width: 100%;
+}
+
+input[type="submit"]{
+    font-size: 14px;
+    padding: 14px;
+    color: black;
+
+}
+
+footer {
+    padding-top: 10px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border-top-style: solid;
+    border-top-color: whitesmoke;
+    border-top-width: 5px;
+    background-color: rgb(70, 161, 240);
+    text-align: center;
+}
